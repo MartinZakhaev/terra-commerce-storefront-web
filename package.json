@@ -10,7 +10,8 @@
     "dev": "nuxt dev",
     "build": "nuxt build",
     "preview": "nuxt preview",
-    "typecheck": "nuxt typecheck"
+    "typecheck": "nuxt typecheck",
+    "postinstall": "nuxt prepare"
   },
   "dependencies": {
     "nuxt": "4.4.8",
